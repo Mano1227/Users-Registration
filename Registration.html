@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign Up </title>
+        <link rel="stylesheet" href="/style.css">
+    </head>
+    <body>
+        <div class="signup-box">
+            <h1>Sign Up </h1>
+            <form>
+                <label for="FName">First Name</label>
+                <input type="text" id="Fname" placeholder="First Name"required>
+                <label for="LName">Last Name</label>
+                <input type="text" id="LName" placeholder="Last Name" required>
+                <lable >Gender</lable>
+                <input type="radio" Name="Gender" value="Male">Male
+                <input type="radio" Name="Gender" value="Female">Female
+                <input type="radio" Name="Gender" value="Others">Others <br><br>
+                <lable for="email">Email</lable>
+            <!--    <input type="email" placeholder="">-->
+                <input type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}" placeholder="Please Enter a Valid Email" required>
+                <label for="psd">Password</label>
+                <input type="password" id="psd" name="password" placeholder="Enter Password" required>
+                <label for="psd-confirm">Confirm Password</label>
+                <input type="password" id="psd-confirm" name="psd-confirm" placeholder="confirm password" required>
+                <label for="mobile">Mobile Number</label>
+                <input type="tel" id="mobile" name="mobile" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4} "required> 
+                <label for="department">Select a Department:</label> 
+                <select name="department" id="department">
+                   <option value="department">department</option>
+                    <option value="IT" >IT </option>
+                    <option value="Finance">Finance</option>
+                    <option value="Marketing">Marketing</option> 
+                    <option value="Sales">Sales</option>
+                    <option value="HR">HR</option>
+                </select>
+                <input type ="button" value="submit">
+
+            </form>
+        </div>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
